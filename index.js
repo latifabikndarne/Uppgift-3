@@ -1,5 +1,5 @@
 
-const myH1tag=document.querySelectorAll('h1');
+const myH1tag=document.querySelector("h1");
 
 myH1tag[1].textContent="Goodbye World";
 
