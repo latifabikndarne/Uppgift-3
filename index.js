@@ -1,8 +1,12 @@
 
-const myH1tag=document.querySelector("h1");
+const h1 = document.querySelector("Hellow World!");
+const button = document.querySelector("button");
 
-myH1tag[1].textContent="Goodbye World";
+button.addEventListener("click", () => {
+    alert("Button Clicked!");
+});
 
-function changeContent(){
-    myH1tag[0].textContent="Hello World";
-}
+const changeTextContent = (h1) => {
+    h1.textContent = "Goodbye World!";
+};
+changeTextContent(h1);
