@@ -1,6 +1,6 @@
 
 const h1 = document.querySelector("Hellow World!");
-const button = document.querySelector("button");
+const button = document.querySelector("myButton");
 
 button.addEventListener(
     "click", 
